@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="Resultados.html" target="_blanck">
+        <p>
+            <label>
+                
+                Nombre completo: <br>
+                <input text="text" name="nombrecompleto">
+            </label>
+        </p>
+        <p>
+            <label>
+                Genero:
+                <select name="genero">
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                    <option>Ninguno me identifica</option>
+                </select>
+            </label> 
+        </p>
+        <p>
+            <label>
+                Edad: 
+                <input type="number" size="3"> años
+            </label>
+        </p>
+        <p>
+            <label>
+                Seleccione su album favorito:<br>
+                <input type="radio" name="salvavidasdehielo">Salvavidas de hielo <br>
+                <input type="radio" name="bailarenlacueva">Bailar en la cueva <br>
+                <input type="radio" name="amarlatrama">Amar la trama <br>
+                <input type="radio" name="eco">Eco<br>
+                <input type="radio" name="laedaddelcielo">La edad del cielo<br>
+                <input type="radio" name="sea">Sea<br>
+            </label>
+        </p>
+        <p>
+            <label>
+                Asistio a algun show de Jorge Drexler?
+                Si<input type="radio" name="show" value="Si">
+                No<input type="radio" name="show" value="No">
+
+            </label>
+        </p>
+        <p>
+        <p>
+            <label>
+                Mandanos tu mensaje <br>
+                <textarea name="mensaje"></textarea>
+            </label>
+        </p>
+            <label>
+                Para recibir novedades introducir un correo: <br>
+                <input type="email">
+            </label>
+        </p>
+        <p>
+            <input type="checkbox" name="aceptoterminos" required>Acepto los términos y condiciones
+        </p>
+        <p><input type="reset" value="Reiniciar formulario"></p>
+        <p><input type="submit" value="Enviar formulario"></p>
+    </form>
+</body>
+</html>
